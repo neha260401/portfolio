@@ -1,0 +1,63 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the layout */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: rgba(67, 5, 46, 0.212);
+
+  color: #0f0e0e;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+.round-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+.about-container img {
+  margin-right: 20px;
+}
+
+/* Hover effect for sections */
+section:hover {
+  background-color: #d694b5;
+  transition: background-color 0.3s ease-in-out;
+}
+
+footer{
+    padding: 30px;
+    background-color: rgba(67, 10, 47, 0.212);
+}
